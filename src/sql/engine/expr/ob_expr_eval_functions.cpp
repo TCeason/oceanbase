@@ -183,6 +183,7 @@
 #include "ob_expr_to_single_byte.h"
 #include "ob_expr_to_multi_byte.h"
 #include "ob_expr_convert_tz.h"
+#include "ob_expr_hello.h"
 
 namespace oceanbase {
 using namespace common;
@@ -675,6 +676,7 @@ static ObExpr::EvalFunc g_expr_eval_functions[] = {
     ObExprIsIpv4Compat::calc_is_ipv4_compat,  /* 416 */
     ObExprInetAton::calc_inet_aton,           /* 417 */
     ObExprInet6Ntoa::calc_inet6_ntoa,         /* 418 */
+    ObExprHello::eval_hello,                  /* 419 */
 };
 
 REG_SER_FUNC_ARRAY(OB_SFA_SQL_EXPR_EVAL, g_expr_eval_functions, ARRAYSIZEOF(g_expr_eval_functions));

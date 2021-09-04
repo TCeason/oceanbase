@@ -229,6 +229,7 @@ ob_set_subtarget(ob_sql engine
   engine/expr/ob_expr_ctxcat_analyzer.cpp
   engine/expr/ob_expr_cur_time.cpp
   engine/expr/ob_expr_current_user.cpp
+  engine/expr/ob_expr_hello.cpp
   engine/expr/ob_expr_database.cpp
   engine/expr/ob_expr_date.cpp
   engine/expr/ob_expr_date_add.cpp

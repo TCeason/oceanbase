@@ -1,0 +1,3 @@
+SELECT HELLO_WORLD();
+HELLO_WORLD()
+Hello World~
